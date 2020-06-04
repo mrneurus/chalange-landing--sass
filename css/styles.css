@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+main {
+  background-color: #e9df9a;
+}
+
+#content {
+  font-family: 'Spacesuit';
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#content h1 {
+  padding: 20px;
+}
+
+#content h3 {
+  font-size: 35px;
+  font-family: 'NASADings';
+}
+
+.scroll-icon {
+  margin-top: 30px;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 25px;
+}
+
+.card {
+  margin-top: 50px;
+  width: 50%;
+  height: 100vh;
+  text-align: center;
+  font-family: 'Spacesuit';
+}
+
+.card-detalle {
+  position: relative;
+  left: 50%;
+  top: 40px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 350px;
+  height: 200px;
+  padding: 15px;
+}
+
+.card-detalle p {
+  margin-top: 15px;
+}
+
+.card-info-date {
+  position: relative;
+  left: 50%;
+  top: 40px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 350px;
+  height: 200px;
+  padding: 15px;
+  margin-top: 20px;
+  height: 150px;
+  width: 400px;
+}
+
+.calendar {
+  display: inline;
+  font-size: 12px;
+  position: relative;
+  bottom: 15px;
+  left: 5px;
+}
+
+.video {
+  display: inline;
+  font-size: 12px;
+  position: relative;
+  bottom: 15px;
+  left: 5px;
+  bottom: 10px;
+}
+
+.form {
+  position: relative;
+  left: 100%;
+  bottom: 50%;
+}
+
+.form form input {
+  margin-bottom: 25px;
+  width: 70%;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+form {
+  margin-top: 15px;
+}
+
+button {
+  font-family: 'NASADings';
+  font-size: 15px;
+  width: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */
